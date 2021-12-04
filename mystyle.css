@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*main*/
+*{
+    margin: 10; 
+}
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(205, 134, 63, 0.377);
+    color: rgb(1, 53, 46);
+    text-align: center;
+    background: #f7ce00d2;
+    background: -moz-radial-gradient(center, #f7ce00d2 0%, #860045ee 0%, #e28c13d0 100%);
+    background: -webkit-radial-gradient(center, #f7ce00d2 0%, #860045ee 0%, #e28c13d0 100%);
+    background: radial-gradient(ellipse at center, #f7ce00d2 0%, #860045ee 0%, #e28c13d0 100%);
+}
+h1{
+    background-color: black;
+    color: white; 
+    border: 1px solid black; 
+}
+h2{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.60);
+}
+p{
+    line-height: 2;
+    font-size: 30;
+    font-weight: 700;
+    color:white; 
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px dashed rgba(255, 255, 255, 0.5); 
+}
+/*lists*/
+.lists{
+    display: flex; 
+}
+.list-item{
+    width: 30%; 
+    background-color: #5a002fe0;
+    color: white; 
+    padding: 5px; 
+    margin: 25px;
+    border: 2px solid black;  
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.6); 
+}
+/*skill-level*/
+.outer{
+    border: 2px solid black; 
+    background-color: black;
+}
+.box{
+    padding: 1px; 
+    width: calc(25% - 1px); 
+    background-color: #5a002fe0; 
+    color: white; 
+}
